@@ -6,30 +6,45 @@
 	<link rel="stylesheet" href="styles.css">
 	<style>
 		body{
-			background-color: rgb(204, 204, 204)
+			background-color: rgb(204, 204, 204);
 		}
 		ul{
 			border:1px solid black;
 			padding:30px;
 			background-color:white;
+		}
+		li{
 			list-style-type: none;
 		}
-		
+		div{
+			border:1px solid black;
+			background-color:white;
+			}
+		#player_one{
+				background-color:rgb(255, 255, 255);
+				padding:20px;
+				border-radius:20px;
+		}
+		#player_two{
+				background-color:rgb(255, 255, 255);
+				padding:20px;
+				border-radius:20px;
+		}
 	</style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
 	<h1 style=text-align:center>My Playlist</h1>
-	<div>
-		<ul style=list-style-type: none;>
+	
+		<ul>
 			<li style=list-style-type: none><a href="https://example.com/song1.mp3" target="_blank">Song 1</a></li>
-        <li style=list-style-type: none><a text-decoration-line: none href="https://example.com/song2.mp3" target="_blank">Song 2</a></li>
-        <li style=list-style-type: none><a text-decoration-line: none href="https://example.com/song3.mp3" target="_blank">Song 3</a></li>
-        <li style=list-style-type: none><a text-decoration-line: none href="https://example.com/song4.mp3" target="_blank">Song 4</a></li>
-        <li style=list-style-type: none><a text-decoration-line: none href="https://example.com/song5.mp3" target="_blank">Song 5</a></li>
-
+        <li ><a text-decoration-line: none href="https://example.com/song2.mp3" target="_blank">Song 2</a></li>
+        <li ><a text-decoration-line: none href="https://example.com/song3.mp3" target="_blank">Song 3</a></li>
+        <li ><a text-decoration-line: none href="https://example.com/song4.mp3" target="_blank">Song 4</a></li>
+        <li ><a text-decoration-line: none href="https://example.com/song5.mp3" target="_blank">Song 5</a></li>
 		</ul>
+	<div>
 	<h2 style=text-align:center>Now Playing...</h2>
 		<video class="player_one" controls style=background-color: rgb(255, 255, 255); padding; border-radius;> 
 		<source  src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4">
